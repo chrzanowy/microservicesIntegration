@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="title" content='Integracja systemów informatycznych' />
+    <meta name='robots' content='index,follow' />
+    <title>Integracja systemów informatycznych</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--[if lt IE 9]>
+    <script src="js/html5.js"></script>
+    <![endif]-->
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_eahyIgdd-zOZ0bakcZajZc0cAUKcV8A&libraries=places"  type="text/javascript"></script>
+    <script src="biblioteki/jquery/jquery-1.12.4.js"></script>
+    <script src="biblioteki/jquery/jquery-ui.js"></script>
+    <script src="biblioteki/bootstrap/js/bootstrap.js"></script>
+    <script src="biblioteki/bootstrap-notify/bootstrap-notify.js"></script>
+
+    <script src="js/funkcje.js" ></script>
+
+    <link rel="stylesheet" href="biblioteki/bootstrap/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="biblioteki/font-awesome/css/font-awesome.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/mobile.css" type="text/css" id="mobile_css"/>
+
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="shortcut icon" href="favicon.ico" />
+
+</head>
+<body lang="pl">
+<section>
+    <div id="pasekLokalizacja" class="panel panel-default margin_b_0">
+        <div class="panel-heading">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <div id="pasekGorny" class="panel panel-default width_100 margin_b_0">
+        <div class="panel-heading">
+            Informacje o pogodzie i zagrożeniach
+            <div class="menuGornePrzycisk">
+                <div class="menuGornePrzyciskElement mgpe_1" style="top:0px;"></div>
+                <div class="menuGornePrzyciskElement mgpe_2"></div>
+                <div class="menuGornePrzyciskElement mgpe_3" style="bottom:0px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="menuGorne" class="panel panel-default margin_b_0">
+        <div class="panel-heading">
+            Menu
+        </div>
+        <div class="panel-body">
+            <div class="form-group margin_b_10 margin_t_0">
+                <input id="email" type="text" class="form-control" placeholder="Email">
+            </div>
+            <button type="button" class="btn btn-success width_100 margin_b_10 zapiszSubskrypcje">Zapisz do subskrypcji</button>
+            <button type="button" class="btn btn-success width_100 usunSubskrypcje">Usuń subskrypcję</button>
+
+        </div>
+    </div>
+
+    <div id="mapka" style="width: 100%; height: 100vh; background: gray;"></div>
+
+    <div class="panel lokalizacjaInfo panel-default margin_b_0">
+        <div class="panel-heading">
+            Twoja lokalizacja
+            <i class="fa fa-times float_r ukryjPaseklokalizacja" aria-hidden="true"></i>
+
+        </div>
+        <div class="panel-body">
+            <div class="form-group margin_b_0">
+                <label for="miejscowosc">Miejscowość</label>
+                <input id="miejscowosc" type="text" class="form-control" placeholder="miejscowosc">
+            </div>
+
+            <div class="lokalizacjaDane">
+                <div class="form-group">
+                    <label for="latitude">Latitude</label>
+                    <input id="latitude" type="text" disabled class="form-control" maxlength="10" placeholder="latitude">
+                </div>
+                <div class="form-group">
+                    <label for="longitude">longitude</label>
+                    <input id="longitude" type="text" disabled class="form-control" maxlength="10" placeholder="longitude">
+                </div>
+                <div class="form-group margin_b_0">
+                    <label for="wojewodztwo">Województwo</label>
+                    <input id="wojewodztwo" type="text" disabled class="form-control" placeholder="wojewodztwo">
+                </div>
+                <button type="button" class="btn btn-success width_100 sprawdzPogode margin_t_10">Sprawdź Pogodę</button>
+            </div>
+            <button type="button" class="btn btn-success width_100 wczytajDaneMiasta margin_t_10">Pobierz dane dla miasta</button>
+
+        </div>
+    </div>
+
+    <div id="myModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Pogoda dla : <span id="pogodaMiasto"></span>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="width_100 margin_b_0">
+                        <div class="col-md-4 margin_b_0 pogodaIkona col-xs-12">
+                            <img src="img/pochmurno.jpg" />
+                            <p><span class="temperatura"></span> °C</p>
+                        </div>
+                        <div class="col-md-8 margin_b_0">
+                            <table class="table table-striped margin_b_0">
+                                <tbody>
+                                <tr>
+                                    <td>Wiatr</td><td><span class="wiatr"></span> m/s</td>
+                                </tr>
+                                <tr>
+                                    <td>Zachmurzenie</td><td><span class="zachmurzenie"></span> %</td>
+                                </tr>
+                                <tr>
+                                    <td>Ciśnienie</td><td><span class="cisnienie"></span> hpa</td>
+                                </tr>
+                                <tr>
+                                    <td>Wilgotność</td><td><span class="wilgotnosc"></span> %</td>
+                                </tr>
+                                <tr>
+                                    <td>Wschód słońca</td><td><span class="wschodSlonca"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Zachód słońca</td><td><span class="zachodSloncas"></span></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="clear_b"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

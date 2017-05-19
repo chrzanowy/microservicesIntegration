@@ -1,0 +1,218 @@
+body,section{
+	overflow:hidden;
+	position:relative;
+	width:100%;
+	height:100vh;
+	min-width:320px;
+}
+
+.clear_b{
+	clear:both;
+}
+
+.float_r{
+	float:right;
+}
+
+.form-group{
+	margin-bottom:10px;
+}
+
+.width_100{
+	width:100%;
+}
+
+#pasekGorny{
+	min-width:320px;
+}
+
+.menuGornePrzycisk{
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	padding: 11px;
+}
+
+.menuGornePrzyciskElement{
+	width:28px;
+	height:4px;
+	margin-bottom:3px;
+	background:#333;
+}
+
+.menuGornePrzyciskElement:last-child{
+	margin-bottom:0;
+}
+
+#menuGorne{
+	position:absolute;
+	top:60px;
+	right:-600px;
+	z-index:1;
+	padding:0;
+	transition:0.5s;
+	width:300px;
+}
+
+.wysunMenu{
+	right:20px !important;
+}
+
+.menuGornePrzyciskElement{
+	transition:0.5s;
+	position:relative;
+}
+
+.aktywneMenu .mgpe_2{
+	opacity:0;
+}
+
+.aktywneMenu .mgpe_1{
+	transform:rotate(-45deg);
+	top:7px !important;
+}
+
+.aktywneMenu .mgpe_3{
+	transform:rotate(45deg);
+	bottom:7px !important;
+}
+
+.fa-2 {
+    font-size: 2em;
+}
+
+.panel{
+	
+	-webkit-box-shadow: 0px 0px 2px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 2px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 2px 0px rgba(50, 50, 50, 0.75);
+	transition: box-shadow 0.5s;
+}
+
+.panel:hover{
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.lokalizacjaInfo{
+	padding:0;
+	position:absolute;
+	top:60px;
+	margin-left:2%;
+	left:0;
+	width:300px;
+}
+ 
+#myModalTresc{
+	padding:10px;
+}
+ 
+input, #pogodaMiasto{
+    text-transform: capitalize;
+}
+
+#email{
+	text-transform: lowercase;
+}
+
+.lokalizacjaDane{
+	display:none;
+}
+
+.margin_b_0{
+	margin-bottom: 0;
+}
+
+.margin_t_10{
+	margin-top: 10px;
+}
+
+#draggable .panel-heading{
+	cursor: move;
+}
+
+.ui-draggable-dragging{
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.loaderTlo{
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background:rgba(255,255,255,0.7);
+	z-index:9;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#pasekGorny{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1;
+	padding:0;
+	border-radius:0;
+}
+
+#pasekLokalizacja{
+	width:40px;
+	top:60px;
+	left:20px;
+	position:absolute;
+	z-index:1;
+	text-align:center;
+	cursor:pointer;
+	opacity:0;
+}
+
+.ukryjPaseklokalizacja{
+	cursor: pointer;
+	padding: 12px 15px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.powiadomienie{
+	width:480px;
+	
+}
+
+table td{
+	padding:10px 20px !important;
+}
+
+.pogodaIkona{
+	display:inline;
+	text-align:center;
+}
+
+.pogodaIkona p{
+	font-size:20px;
+	font-weight:700;
+}
+

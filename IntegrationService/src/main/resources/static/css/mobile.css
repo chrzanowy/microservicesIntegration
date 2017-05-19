@@ -1,0 +1,34 @@
+@media all and (max-width:800px){
+	.lokalizacjaInfo{
+		width:90%;
+		margin-right:5%;
+		margin-left:5%;
+	}
+	.lokalizacjaInfo .form-group{
+		float:left;
+		width:50%;
+	}
+	.powiadomienie{
+		width:90% !important;
+		margin-right:5% !important;
+		margin-left:5% !important;
+		right:0 !important;
+	}
+} 
+
+@media all and (max-width:540px){
+	.lokalizacjaInfo .form-group{
+		float:none;
+		width:100%;
+	}
+	
+	#menuGorne{
+		width:90%;
+		margin-right:5%;
+		margin-left:5%;
+	}
+	
+	.wysunMenu{
+		right:0px !important;
+	}
+}
