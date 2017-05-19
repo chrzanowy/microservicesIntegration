@@ -2,521 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fccf77a3-0eb0-44ec-a050-b10b5744bdef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.gradle/2.13/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.gradle/2.13/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/InformationServiceRunner.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/controller/LocalizationController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/controller/WeatherController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/AddressComponent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/LocalizationDto.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/RestaurantShortDto.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/Result.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/ShortLocationDto.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/rso/News.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/rso/Newses.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/rso/Pagination_info.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/rso/Province.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/rso/Provinces.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/rso/Rso.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/ForecastDto.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/TranslatedWeatherDto.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/WeatherCityDto.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/WeatherDto$Clouds.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/WeatherDto$Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/WeatherDto$Rain.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/WeatherDto$Sys.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/WeatherDto$Wind.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/WeatherDto.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/service/InformationService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/service/LocalizationService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/service/MailClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/service/RsoService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/service/WeatherService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/integration/dto/MailDto.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.gradle/2.13/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.gradle/2.13/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/IntegrationServiceRunner.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/controller/SubscriptionController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/dao/RsoCacheDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/dao/UserDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/dao/impl/RsoCacheDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/dao/impl/UserDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/dto/MailDto.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/dto/UserDto.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/dto/subscription/SubscribeDto.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/exception/ExceptionHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/exception/UserAlreadySubscribedException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/exception/UserNotExistingException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/model/RsoCache.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/model/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/quartz/QuartzConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/quartz/QuartzDataSource.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/quartz/QuartzJobFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/quartz/RsoCronJob.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/quartz/WeatherCronJob.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/service/IntegrationService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/service/SubscriptionService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/service/UserService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/static/img/pochmurno.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/resources/static/img/pochmurno.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.gradle/2.13/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.gradle/2.13/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/build/classes/main/com/integration/dto/MailDto.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/build/classes/main/com/mailservice/MailServiceRunner.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/build/classes/main/com/mailservice/service/MailService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/geteat.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.gradle/2.13/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__com_fasterxml_classmate_1_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__net_minidev_accessors_smart_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__net_minidev_json_smart_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_apache_activemq_activemq_broker_5_14_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_apache_activemq_activemq_client_5_14_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_apache_activemq_activemq_openwire_legacy_5_14_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_8_5_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_8_5_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_assertj_assertj_core_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_fusesource_hawtbuf_hawtbuf_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_hibernate_hibernate_validator_5_3_4_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_mockito_mockito_core_1_10_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_projectlombok_lombok_1_16_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_slf4j_jcl_over_slf4j_1_7_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_slf4j_log4j_over_slf4j_1_7_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_actuator_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_devtools_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_activemq_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_actuator_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_spring_context_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_spring_core_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_spring_jms_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_spring_messaging_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_spring_test_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_spring_tx_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_spring_web_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/libraries/Gradle__org_yaml_snakeyaml_1_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/modules/InformationService.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/modules/InformationService_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/modules/InformationService_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/build/resources/main/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/out/production/InformationService/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/InformationServiceRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/controller/LocalizationController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/controller/WeatherController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/AddressComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/LocalizationDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/RestaurantShortDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/Result.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/ShortLocationDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/rso/News.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/rso/Newses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/rso/Pagination_info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/rso/Province.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/rso/Provinces.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/rso/Rso.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/weather/ForecastDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/weather/TranslatedWeatherDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/weather/WeatherCityDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/weather/WeatherDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/service/InformationService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/service/LocalizationService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/service/MailClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/service/RsoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/service/WeatherService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/integration/dto/MailDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.gradle/2.13/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__c3p0_c3p0_0_9_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__com_fasterxml_classmate_1_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__com_h2database_h2_1_4_193.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__javax_transaction_javax_transaction_api_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__net_minidev_accessors_smart_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__net_minidev_json_smart_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_apache_activemq_activemq_broker_5_14_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_apache_activemq_activemq_client_5_14_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_apache_activemq_activemq_openwire_legacy_5_14_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_8_5_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_8_5_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_apache_tomcat_tomcat_jdbc_8_5_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_apache_tomcat_tomcat_juli_8_5_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_assertj_assertj_core_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_fusesource_hawtbuf_hawtbuf_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_hibernate_hibernate_core_5_0_12_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_hibernate_hibernate_entitymanager_5_0_12_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_hibernate_hibernate_validator_5_3_4_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_javassist_javassist_3_21_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_jboss_jandex_2_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_mockito_mockito_core_1_10_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_projectlombok_lombok_1_16_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_quartz_scheduler_quartz_2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_slf4j_jcl_over_slf4j_1_7_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_slf4j_log4j_over_slf4j_1_7_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_actuator_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_devtools_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_activemq_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_actuator_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_data_spring_data_commons_1_13_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_data_spring_data_jpa_1_11_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_spring_aspects_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_spring_context_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_spring_context_support_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_spring_core_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_spring_jms_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_spring_messaging_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_spring_orm_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_spring_test_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_spring_tx_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_spring_web_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_webjars_bootstrap_3_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_webjars_jquery_2_0_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/libraries/Gradle__org_yaml_snakeyaml_1_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/modules/IntegrationService.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/modules/IntegrationService_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/modules/IntegrationService_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/dbConfig.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/dbscript/h2.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/dbscript/my-schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/dbscript/my-test-data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/static/biblioteki/bootstrap-notify/bootstrap-notify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/static/biblioteki/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/static/biblioteki/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/static/biblioteki/font-awsome/css/font-awsome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/static/biblioteki/jquery/jquery-1.12.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/static/biblioteki/jquery/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/static/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/static/css/mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/static/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/static/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/build/resources/main/static/js/funkcje.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/IntegrationServiceRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/controller/SubscriptionController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/dao/RsoCacheDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/dao/impl/RsoCacheDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/dao/impl/UserDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/dto/MailDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/dto/UserDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/dto/subscription/SubscribeDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/exception/ExceptionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/exception/UserAlreadySubscribedException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/exception/UserNotExistingException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/model/RsoCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/service/IntegrationService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/service/SubscriptionService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/resources/dbConfig.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/resources/dbscript/my-schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/resources/dbscript/my-test-data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/resources/static/biblioteki/bootstrap-notify/bootstrap-notify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/resources/static/biblioteki/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/resources/static/biblioteki/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/resources/static/biblioteki/font-awsome/css/font-awsome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/resources/static/biblioteki/jquery/jquery-1.12.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/resources/static/biblioteki/jquery/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/resources/static/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/resources/static/css/mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/resources/static/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/resources/static/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/resources/static/js/funkcje.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.gradle/2.13/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__c3p0_c3p0_0_9_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__com_fasterxml_classmate_1_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__net_minidev_accessors_smart_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__net_minidev_json_smart_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_apache_activemq_activemq_broker_5_14_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_apache_activemq_activemq_client_5_14_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_apache_activemq_activemq_openwire_legacy_5_14_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_8_5_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_8_5_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_assertj_assertj_core_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_fusesource_hawtbuf_hawtbuf_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_hibernate_hibernate_validator_5_3_4_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_mockito_mockito_core_1_10_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_projectlombok_lombok_1_16_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_quartz_scheduler_quartz_2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_slf4j_jcl_over_slf4j_1_7_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_slf4j_log4j_over_slf4j_1_7_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_boot_spring_boot_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_activemq_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_spring_context_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_spring_core_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_spring_jms_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_spring_messaging_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_spring_test_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_spring_tx_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_spring_web_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/libraries/Gradle__org_yaml_snakeyaml_1_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/modules/MailService.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/modules/MailService_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/modules/MailService_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/build/resources/main/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/src/main/java/com/integration/dto/MailDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/src/main/java/com/mailservice/MailServiceRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/src/main/java/com/mailservice/service/MailService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MailServiceProject/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__c3p0_c3p0_0_9_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_h2database_h2_1_4_193.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_transaction_javax_transaction_api_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_accessors_smart_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_json_smart_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_activemq_activemq_broker_5_14_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_activemq_activemq_client_5_14_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_activemq_activemq_openwire_legacy_5_14_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_tomcat_jdbc_8_5_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_tomcat_juli_8_5_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_fusesource_hawtbuf_hawtbuf_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_hibernate_core_5_0_12_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_hibernate_entitymanager_5_0_12_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_21_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_jandex_2_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_1_10_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_16_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_quartz_scheduler_quartz_2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jcl_over_slf4j_1_7_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_log4j_over_slf4j_1_7_24.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_devtools_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_activemq_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_1_5_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_commons_1_13_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_jpa_1_11_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aspects_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_support_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jms_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_messaging_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_orm_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/SynchronizationService.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/SynchronizationService_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/SynchronizationService_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/integration/dto/SynchronizationDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/synchronization/SynchronizationServiceRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/synchronization/quartz/QuartzConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/synchronization/quartz/QuartzDataSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/synchronization/quartz/QuartzJobFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/synchronization/quartz/RsoCronJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/synchronization/quartz/WeatherCronJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dbConfig.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dbscript/h2.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/integration/dto/RsoAccidentDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/integration/dto/RsoDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/integration/dto/RsoRiverDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/integration/dto/WeatherDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/dto/RsoAccidentDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/dto/RsoDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/dto/RsoRiverDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/dto/WeatherDto.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/WeatherDto$Clouds.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/WeatherDto$Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/WeatherDto$Rain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/WeatherDto$Sys.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/WeatherDto$Wind.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/WeatherDto.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/controller/WeatherController.class" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/controller/WeatherController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/ForecastDto.class" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/dto/weather/ForecastDto.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/service/InformationService.class" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/service/InformationService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/service/RsoService.class" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/service/RsoService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/service/WeatherService.class" afterPath="$PROJECT_DIR$/../InformationService/build/classes/main/com/information/service/WeatherService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/service/IntegrationService.class" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/service/IntegrationService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/service/SubscriptionService.class" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/service/SubscriptionService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/service/UserService.class" afterPath="$PROJECT_DIR$/../IntegrationService/build/classes/main/com/integration/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MailServiceProject/build/classes/main/com/mailservice/service/MailService.class" afterPath="$PROJECT_DIR$/../MailServiceProject/build/classes/main/com/mailservice/service/MailService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/synchronization/quartz/QuartzConfig.class" afterPath="$PROJECT_DIR$/build/classes/main/com/synchronization/quartz/QuartzConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../InformationService/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../InformationService/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/controller/WeatherController.java" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/controller/WeatherController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/weather/ForecastDto.java" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/weather/ForecastDto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/service/InformationService.java" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/service/InformationService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/service/RsoService.java" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/service/RsoService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/service/WeatherService.java" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/service/WeatherService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IntegrationService/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../IntegrationService/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/service/IntegrationService.java" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/service/IntegrationService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/service/SubscriptionService.java" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/service/SubscriptionService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/service/UserService.java" afterPath="$PROJECT_DIR$/../IntegrationService/src/main/java/com/integration/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MailServiceProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MailServiceProject/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MailServiceProject/src/main/java/com/mailservice/service/MailService.java" afterPath="$PROJECT_DIR$/../MailServiceProject/src/main/java/com/mailservice/service/MailService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/synchronization/quartz/QuartzConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/synchronization/quartz/QuartzConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/weather/WeatherDto.java" afterPath="$PROJECT_DIR$/../InformationService/src/main/java/com/information/dto/weather/ExtendedWeatherDto.java" />
     </list>
     <ignored path="SynchronizationService.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -626,11 +150,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RsoCronJob.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RsoCronJob.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/synchronization/quartz/RsoCronJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -638,7 +162,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherCronJob.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WeatherCronJob.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/synchronization/quartz/WeatherCronJob.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -663,8 +187,8 @@
       <file leaf-file-name="QuartzConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/synchronization/quartz/QuartzConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-371">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="309">
+              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1089,11 +613,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/synchronization/quartz/QuartzConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/synchronization/quartz/RsoCronJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/synchronization/quartz/WeatherCronJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/synchronization/SynchronizationServiceRunner.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/synchronization/quartz/QuartzConfig.java" />
       </list>
     </option>
   </component>
@@ -1621,7 +1145,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1669,14 +1193,8 @@
           <line>21</line>
           <properties />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/synchronization/quartz/RsoCronJob.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1697,30 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/synchronization/quartz/QuartzJobFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/synchronization/quartz/QuartzDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/synchronization/quartz/QuartzConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-371">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1767,17 +1261,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/synchronization/quartz/WeatherCronJob.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/synchronization/quartz/QuartzJobFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/synchronization/quartz/QuartzDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/synchronization/quartz/QuartzConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/synchronization/quartz/RsoCronJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/synchronization/quartz/RsoCronJob.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/synchronization/quartz/WeatherCronJob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />

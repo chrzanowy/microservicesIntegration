@@ -17,7 +17,7 @@ import java.util.List;
 @Getter
 public class ForecastDto {
     @JsonProperty("list")
-    private List<WeatherDto> weatherDtoList;
+    private List<ExtendedWeatherDto> extendedWeatherDtoList;
     @JsonProperty("city")
     private WeatherCityDto weatherCityDto;
 }

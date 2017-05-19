@@ -7,6 +7,7 @@ import com.integration.exception.UserNotExistingException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Collections;
 
@@ -20,17 +21,19 @@ public class SubscriptionService {
     private UserService userService;
 
     @Autowired
-    private JmsTemplate jmsTemplate;
+    private IntegrationService integrationService;
 
+    @Transactional
+    @javax.transaction.Transactional
     public void subscribe(SubscribeDto subscribeDto) throws UserAlreadySubscribedException {
-        jmsTemplate.convertAndSend("MAIL_QUEUE", new MailDto(Collections.singletonList("rec"), "cont"));
-       //userService.subscribeUser(subscribeDto);
-        //mailSenderService.sendMail(subscribeDto.getEmail(), "Zostales zasubskrybowany do serwisu!");
+       userService.subscribeUser(subscribeDto);
+        integrationService.sendMail(subscribeDto.getEmail(), "Welcome in Weather & Rso information service");
     }
 
-
+    @Transactional
+    @javax.transaction.Transactional
     public void unsubscribe(SubscribeDto subscribeDto) throws UserNotExistingException {
-        //userService.unsubscribeUser(subscribeDto);
-       // mailSenderService.sendMail(subscribeDto.getEmail(), "Zostales usuniety z subskrybcji!");
+        userService.unsubscribeUser(subscribeDto);
+        integrationService.sendMail(subscribeDto.getEmail(), "You have been unsubscribed");
     }
 }

@@ -24,8 +24,6 @@ public class UserService {
     @Autowired
     private UserDao userDao;
 
-    @Transactional
-    @javax.transaction.Transactional
     public User subscribeUser(SubscribeDto subscribeDto) throws UserAlreadySubscribedException {
         User user = new User(subscribeDto.getEmail(), subscribeDto.getCity(),
                 subscribeDto.getState());
@@ -33,8 +31,6 @@ public class UserService {
         return user;
     }
 
-    @Transactional
-    @javax.transaction.Transactional
     public void unsubscribeUser(SubscribeDto subscribeDto) throws UserNotExistingException {
         userDao.deleteByEmail(subscribeDto.getEmail());
     }

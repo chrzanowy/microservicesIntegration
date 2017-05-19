@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
  */
 @AllArgsConstructor
 @NoArgsConstructor
-public class WeatherDto {
+public class ExtendedWeatherDto {
 
     @JsonProperty("main")
     public Main main;

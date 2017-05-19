@@ -82,9 +82,10 @@ public class QuartzConfig {
         SimpleTriggerFactoryBean factoryBean = new SimpleTriggerFactoryBean();
         factoryBean.setJobDetail(weatherJobDetails().getObject());
         factoryBean.setStartDelay(repeatInterval);
-        LocalDateTime localDateTime = LocalDate.now().atStartOfDay().plusDays(1);
-        factoryBean.setStartTime(Date.from(localDateTime.toInstant(ZoneOffset.UTC)));
-        factoryBean.setRepeatInterval(repeatInterval * 24 * 60);
+//        LocalDateTime localDateTime = LocalDate.now().atStartOfDay().plusDays(1);
+  //      factoryBean.setStartTime(Date.from(localDateTime.toInstant(ZoneOffset.UTC)));
+        factoryBean.setRepeatInterval(repeatInterval);
+        //  factoryBean.setRepeatInterval(repeatInterval * 24 * 60);
         factoryBean.setRepeatCount(SimpleTrigger.REPEAT_INDEFINITELY);
         factoryBean.setMisfireInstruction(SimpleTrigger.MISFIRE_INSTRUCTION_RESCHEDULE_NEXT_WITH_REMAINING_COUNT);
         return factoryBean;

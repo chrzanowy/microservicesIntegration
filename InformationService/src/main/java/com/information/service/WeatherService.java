@@ -1,7 +1,8 @@
 package com.information.service;
 
 import com.information.dto.weather.ForecastDto;
-import com.information.dto.weather.WeatherDto;
+import com.information.dto.weather.ExtendedWeatherDto;
+import com.integration.dto.WeatherDto;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -20,14 +21,14 @@ public class WeatherService {
 
     private final RestTemplate restTemplate = new RestTemplate();
 
-    public WeatherDto getLocalizationForLatitudeAndLongitude(String latitude, String longitude) {
+    public ExtendedWeatherDto getLocalizationForLatitudeAndLongitude(String latitude, String longitude) {
         Map<String, String> parameterMap = new HashMap<>();
         parameterMap.put("latitude", latitude);
         parameterMap.put("longitude", longitude);
         parameterMap.put("key", WEATHER_API_KEY);
-        WeatherDto weatherResponse = restTemplate
+        ExtendedWeatherDto weatherResponse = restTemplate
                 .getForObject("http://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid={key}&units=metric",
-                        WeatherDto.class,
+                        ExtendedWeatherDto.class,
                         parameterMap);
         weatherResponse.getClass();
         return weatherResponse;
@@ -47,5 +48,9 @@ public class WeatherService {
 
         });
         return forecastMap;
+    }
+
+    public WeatherDto translateForecastToWeather(ForecastDto forecastDto) {
+        return null;
     }
 }
