@@ -13,7 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
-public class MailDto implements Serializable{
+public class MailDto implements Serializable {
 
     private List<String> emailList;
     private String content;

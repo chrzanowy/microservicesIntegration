@@ -57,3 +57,4 @@ public class MailServiceRunner extends SpringBootServletInitializer {
     }
 
 }
+

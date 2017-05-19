@@ -18,13 +18,13 @@ public interface UserDao {
 
     void deleteByEmail(String email) throws UserNotExistingException;
 
-    List findAllByState(String state);
+    List<User> findAllByState(String state);
 
-    List findAllStates();
+    List<String> findAllStates();
 
-    List findAllCities();
+    List<String> findAllCities();
 
-    List findAllByCity(String city);
+    List<User> findAllByCity(String city);
 
     Optional<User> findByEmail(String email);
 }

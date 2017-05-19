@@ -35,19 +35,19 @@ public class UserService {
         userDao.deleteByEmail(subscribeDto.getEmail());
     }
 
-    public List getUserCityList(){
+    public List<String> getUserCityList(){
         return userDao.findAllCities();
     }
 
-    public List getUserStateList(){
+    public List<String> getUserStateList(){
         return userDao.findAllStates();
     }
 
-    public List getUserListByCity(String city){
+    public List<User> getUserListByCity(String city){
         return userDao.findAllByCity(city);
     }
 
-    public List getUserListByState(String state){
+    public List<User> getUserListByState(String state){
         return userDao.findAllByState(state);
     }
 }

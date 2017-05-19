@@ -50,7 +50,7 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public List findAllByState(String state) {
+    public List<User> findAllByState(String state) {
         CriteriaBuilder cb = entityManager.getCriteriaBuilder();
         CriteriaQuery<User> cq = cb.createQuery(User.class);
         Root<User> e = cq.from(User.class);
@@ -60,16 +60,16 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public List findAllStates() {
+    public List<String> findAllStates() {
         return findAllByKey(STATE_KEY);
     }
 
     @Override
-    public List findAllCities() {
+    public List<String> findAllCities() {
         return findAllByKey(CITY_KEY);
     }
 
-    private List findAllByKey(String key) {
+    private List<String> findAllByKey(String key) {
         CriteriaBuilder cb = entityManager.getCriteriaBuilder();
         CriteriaQuery<User> cq = cb.createQuery(User.class);
         Root<User> e = cq.from(User.class);
@@ -79,7 +79,7 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public List findAllByCity(String city) {
+    public List<User> findAllByCity(String city) {
         CriteriaBuilder cb = entityManager.getCriteriaBuilder();
         CriteriaQuery<User> cq = cb.createQuery(User.class);
         Root<User> e = cq.from(User.class);

@@ -3,15 +3,11 @@ package com.information.service;
 import com.information.dto.rso.News;
 import com.information.dto.rso.Newses;
 import com.information.dto.rso.Rso;
-import com.integration.dto.RsoAccidentDto;
 import com.integration.dto.RsoDto;
-import com.integration.dto.RsoRiverDto;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.util.*;
 
 /**
  * Created by Kuba on 2017-05-13.
@@ -23,20 +19,32 @@ public class RsoService {
     private final static String RSO_URL = "https://komunikaty.tvp" +
             ".pl/komunikatyxml/wszystkie/wszystkie/1?_format=xml";
 
-    public List<RsoDto> getLatestNewsForStates(List allStates, Long latestId) {
+    public Map<String, List<RsoDto>> getLatestNewsForStates(List allStates, Long latestId) {
+        Map<String, List<RsoDto>> newsMap = new HashMap<>();
         Rso rso = new Rso(restTemplate
                 .getForObject(RSO_URL,
                         Newses.class));
-        return Arrays.stream(rso.getNewses().getNews())
+        Arrays.stream(rso.getNewses().getNews())
                 .filter(news -> Long.valueOf(news.getId()) > latestId)
                 .filter(news -> allStates.contains(news.getProvinces().getProvince().getSlug()))
-                .map(this::translateNewsToRsoDto)
-                .collect(Collectors.toList());
+                .forEach(news -> addToMap(news, newsMap));
+        return newsMap;
+    }
+
+    private void addToMap(News news, Map<String, List<RsoDto>> newsMap) {
+        String slug = news.getProvinces().getProvince().getSlug();
+        if (newsMap.containsKey(slug)) {
+            newsMap.get(slug).add(translateNewsToRsoDto(news));
+        } else {
+            List<RsoDto> rsoDtoList = new LinkedList<>();
+            rsoDtoList.add(translateNewsToRsoDto(news));
+            newsMap.put(slug, rsoDtoList);
+        }
     }
 
     private RsoDto translateNewsToRsoDto(News news) {
         if ("z".equals(news.getType())) {
-            return new RsoRiverDto(
+            return new RsoDto(
                     news.getLocation_name(),
                     true,
                     news.getValid_from(),
@@ -45,15 +53,20 @@ public class RsoService {
                     news.getRiver_name(),
                     news.getWater_level_value(),
                     news.getWater_level_warning_status_value(),
-                    news.getWater_level_alarm_status_value()
+                    news.getWater_level_alarm_status_value(),
+                    null
             );
         } else {
-            return new RsoAccidentDto(
+            return new RsoDto(
                     news.getLocation_name(),
                     false,
                     news.getValid_from(),
                     news.getValid_to(),
                     news.getProvinces().getProvince().getSlug(),
+                    null,
+                    null,
+                    null,
+                    null,
                     news.getContent()
             );
         }

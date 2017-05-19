@@ -1,7 +1,7 @@
 package com.information.service;
 
-import com.information.dto.weather.ForecastDto;
 import com.information.dto.weather.ExtendedWeatherDto;
+import com.information.dto.weather.ForecastDto;
 import com.integration.dto.WeatherDto;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -9,6 +9,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * Created by Jake on 22.04.2017.
@@ -34,8 +35,8 @@ public class WeatherService {
         return weatherResponse;
     }
 
-    public Map<String, ForecastDto> fetchWeatherForCities(List<String> allCities) {
-        Map<String, ForecastDto> forecastMap = new HashMap<>();
+    public Map<String, List<WeatherDto>> fetchWeatherForCities(List<String> allCities) {
+        Map<String, List<WeatherDto>> forecastMap = new HashMap<>();
         allCities.forEach((city) -> {
             Map<String, String> parameterMap = new HashMap<>();
             parameterMap.put("key", WEATHER_API_KEY);
@@ -44,13 +45,23 @@ public class WeatherService {
                     .getForObject("http://api.openweathermap.org/data/2.5/forecast?q={city}&appid={key}&units=metric",
                             ForecastDto.class,
                             parameterMap);
-            forecastMap.put(city, weatherResponse);
-
+            forecastMap.put(city, translateForecastToWeather(weatherResponse));
         });
         return forecastMap;
     }
 
-    public WeatherDto translateForecastToWeather(ForecastDto forecastDto) {
-        return null;
+    public List<WeatherDto> translateForecastToWeather(ForecastDto forecastDto) {
+        return forecastDto.getExtendedWeatherDtoList().stream()
+                .map(s -> WeatherDto.builder()
+                        .temperature(s.main.temp)
+                        .pressure(s.main.pressure)
+                        .humidity(s.main.humidity)
+                        .temperatureMax(s.main.tempMax)
+                        .temperatureMin(s.main.tempMin)
+                        .rain(s.rain == null? null : s.rain._3h)
+                        .clouds(s.clouds.all)
+                        .date(s.forecastDate)
+                        .build())
+                .collect(Collectors.toList());
     }
 }

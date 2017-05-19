@@ -1,14 +1,21 @@
 package com.integration.service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.integration.dto.MailDto;
-import com.integration.dto.RsoDto;
-import com.integration.dto.WeatherDto;
+import com.integration.dto.RsoMap;
+import com.integration.dto.WeatherMap;
+import com.integration.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
 
-import java.util.*;
+import java.io.IOException;
+import java.util.Collections;
+import java.util.Date;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Created by Kuba on 2017-05-18.
@@ -22,6 +29,8 @@ public class IntegrationService {
     @Autowired
     private UserService userService;
 
+    private ObjectMapper mapper = new ObjectMapper();
+
     @JmsListener(destination = "RSO_SYNCHRONIZATION_QUEUE")
     public void fetchLatestRso(Date fireTime) {
         List<String> userStateList = userService.getUserStateList();
@@ -29,30 +38,52 @@ public class IntegrationService {
     }
 
     @JmsListener(destination = "RSO_RESPONSE_QUEUE")
-    public void processRsoFetchResponse(Map <String, RsoDto> rsoMap) {
-        sendMail(Collections.emptyList(), "cont");
+    public void processRsoFetchResponse(String rsoMap) throws IOException {
+        RsoMap translatedMap = mapper.readValue(rsoMap, RsoMap.class);
+        translatedMap.getRsoMap().keySet().forEach(state -> {
+            List<String> usersEmailsWithCity = userService.getUserListByState(state)
+                    .stream()
+                    .map(User::getEmail)
+                    .collect(Collectors.toList());
+            try {
+                sendMail(usersEmailsWithCity, mapper.writeValueAsString(translatedMap.getRsoMap().get(state)));
+            } catch (JsonProcessingException e) {
+                e.printStackTrace();
+            }
+        });
     }
 
     @JmsListener(destination = "WEATHER_SYNCHRONIZATION_QUEUE")
     public void fetchWeather(Date fireTime) {
-        List<String> userStateList = userService.getUserStateList();
-        jmsTemplate.convertAndSend("WEATHER_REQUEST_QUEUE", userStateList);
+        List<String> userCityList = userService.getUserCityList();
+        jmsTemplate.convertAndSend("WEATHER_REQUEST_QUEUE", userCityList);
     }
 
     @JmsListener(destination = "WEATHER_RESPONSE_QUEUE")
-    public void processWeatherFetchResponse(Map <String, WeatherDto> weatherMap) {
-        sendMail(Collections.emptyList(), "cont");
+    public void processWeatherFetchResponse(String weatherMap) throws IOException {
+        WeatherMap translatedMap = mapper.readValue(weatherMap, WeatherMap.class);
+        translatedMap.getWeatherMap().keySet().forEach(city -> {
+            List<String> usersEmailsWithCity = userService.getUserListByCity(city)
+                    .stream()
+                    .map(User::getEmail)
+                    .collect(Collectors.toList());
+            try {
+                sendMail(usersEmailsWithCity, mapper.writeValueAsString(translatedMap.getWeatherMap().get(city)));
+            } catch (JsonProcessingException e) {
+                e.printStackTrace();
+            }
+        });
     }
 
-    private void sendMail(MailDto mailDto){
+    private void sendMail(MailDto mailDto) {
         jmsTemplate.convertAndSend("MAIL_QUEUE", mailDto);
     }
 
-    public void sendMail(String email, String content){
+    public void sendMail(String email, String content) {
         sendMail(new MailDto(Collections.singletonList(email), content));
     }
 
-    public void sendMail(List<String> emailList, String content){
+    public void sendMail(List<String> emailList, String content) {
         sendMail(new MailDto(emailList, content));
     }
 
