@@ -34,13 +34,17 @@ public class InformationService {
     @JmsListener(destination = "WEATHER_REQUEST_QUEUE")
     public void fetchWeather(List<String> weatherFetchMap) throws JsonProcessingException {
         Map<String, List<WeatherDto>> stringForecastDtoMap = weatherService.fetchWeatherForCities(weatherFetchMap);
-        jmsTemplate.convertAndSend("WEATHER_RESPONSE_QUEUE", mapper.writeValueAsString(new
-                WeatherMap(stringForecastDtoMap)));
+        if (!stringForecastDtoMap.isEmpty()) {
+            jmsTemplate.convertAndSend("WEATHER_RESPONSE_QUEUE", mapper.writeValueAsString(
+                    new WeatherMap(stringForecastDtoMap)));
+        }
     }
 
     @JmsListener(destination = "RSO_REQUEST_QUEUE")
     public void fetchRso(List<String> rsoFetchMap) throws JsonProcessingException {
-        Map<String, List<RsoDto>> latestNewsForStates = rsoService.getLatestNewsForStates(rsoFetchMap, 0L);
-        jmsTemplate.convertAndSend("RSO_RESPONSE_QUEUE", mapper.writeValueAsString(new RsoMap(latestNewsForStates)));
+        Map<String, List<RsoDto>> latestNewsForStates = rsoService.getLatestNewsForStates(rsoFetchMap);
+        if (!latestNewsForStates.isEmpty()) {
+            jmsTemplate.convertAndSend("RSO_RESPONSE_QUEUE", mapper.writeValueAsString(new RsoMap(latestNewsForStates)));
+        }
     }
 }

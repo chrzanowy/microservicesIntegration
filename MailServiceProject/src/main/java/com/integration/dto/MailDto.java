@@ -17,4 +17,5 @@ public class MailDto implements Serializable{
 
     private List<String> emailList;
     private String content;
+    private String type;
 }
