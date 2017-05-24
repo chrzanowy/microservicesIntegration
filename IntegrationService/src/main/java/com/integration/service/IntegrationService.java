@@ -33,7 +33,7 @@ public class IntegrationService {
     private ObjectMapper mapper = new ObjectMapper();
 
     @JmsListener(destination = "RSO_SYNCHRONIZATION_QUEUE")
-    public void fetchLatestRso(Date fireTime) {
+    public void fetchLatestRso(String s) {
         List<String> userStateList = userService.getUserStateList();
         if(!userStateList.isEmpty()){
             jmsTemplate.convertAndSend("RSO_REQUEST_QUEUE", userStateList);
@@ -58,7 +58,7 @@ public class IntegrationService {
     }
 
     @JmsListener(destination = "WEATHER_SYNCHRONIZATION_QUEUE")
-    public void fetchWeather(Date fireTime) {
+    public void fetchWeather(String s) {
         List<String> userCityList = userService.getUserCityList();
         if(!userCityList.isEmpty()){
             jmsTemplate.convertAndSend("WEATHER_REQUEST_QUEUE", userCityList);

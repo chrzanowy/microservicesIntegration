@@ -17,7 +17,6 @@ import javax.persistence.criteria.Root;
 import java.util.List;
 import java.util.Optional;
 
-@Slf4j
 @Repository
 public class UserDaoImpl implements UserDao {
 
@@ -33,7 +32,7 @@ public class UserDaoImpl implements UserDao {
         Optional<User> byEmail = findByEmail(user.getEmail());
         if (!byEmail.isPresent()) {
             entityManager.persist(user);
-            log.info("User %s saved in db", user.getEmail());
+            //log.info("User %s saved in db", user.getEmail());
         } else {
             throw new UserAlreadySubscribedException(user.getEmail());
         }
@@ -93,7 +92,7 @@ public class UserDaoImpl implements UserDao {
         Optional<User> byEmail = findByEmail(email);
         if (byEmail.isPresent()) {
             entityManager.remove(byEmail.get());
-            log.info("User %s deleted from db", email);
+            //log.info("User %s deleted from db", email);
         } else {
             throw new UserNotExistingException(email);
         }

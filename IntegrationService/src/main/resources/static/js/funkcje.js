@@ -254,7 +254,7 @@ function MapaMain(){
 	this.sprawdzPogode = function(){
 		$.ajax({
 			type: 'GET'
-            ,url: 'http://localhost:8080/weather?latitude='+ latitude +'&longitude=' + longitude
+            ,url: 'http://localhost:8088/weather?latitude='+ latitude +'&longitude=' + longitude
         }).done(function(dane) {
 
             //console.log(dane);
@@ -295,21 +295,21 @@ function MapaMain(){
 
         $.ajax({
                 type: 'POST'
-                ,url: 'http://localhost:8080/subscribe'
+                ,url: 'http://localhost:8088/subscribe'
                 ,data : JSON.stringify(formData)
                     ,dataType: 'json'
                     ,cache : false
                     ,processData: false
                     ,contentType: "application/json"
                     ,statusCode: {
-                        400: function() {
+                        500: function() {
                           mapaMain.ustawCookie('pogoda_subskrypcja', email, 365);
                           mapaMain.ustawCookie('miasto_subskrypcja', miejscowosc, 365);
                           $('.zapiszSubskrypcje').hide();
                           $('.usunSubskrypcje').show();
                           mapaMain.wyswietlPowiadomienie('Adres email jest zapisany do subskrypcji','danger');
                         },
-                        201: function(){
+                        200: function(){
                             mapaMain.ustawCookie('pogoda_subskrypcja', email, 365);
                             mapaMain.ustawCookie('miasto_subskrypcja', miejscowosc, 365);
                             $('.zapiszSubskrypcje').hide();
@@ -330,7 +330,7 @@ function MapaMain(){
 
             $.ajax({
                     type: 'DELETE'
-                    ,url: 'http://localhost:8080/subscribe'
+                    ,url: 'http://localhost:8088/subscribe'
                     ,data : JSON.stringify(formData)
                     ,dataType: 'json'
                     ,cache : false
@@ -347,7 +347,7 @@ function MapaMain(){
                           $('.usunSubskrypcje').hide();
                           mapaMain.wyswietlPowiadomienie('Zostałeś usunięty ze subskrypcji.','success');
                         },
-                        400 : function(){
+                        500 : function(){
                               pogoda_subskrypcja = '';
                               miasto_subskrypcja = '';
                               mapaMain.ustawCookie('pogoda_subskrypcja', '', 365);

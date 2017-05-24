@@ -3,3 +3,31 @@ geteat/
 */.idea
 *.iml
 */build/*
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+IntegrationService/.idea/
+IntegrationService/build/
+IntegrationService/gradle/
+
+InformationService/.idea/
+InformationService/build/
+InformationService/gradle/
