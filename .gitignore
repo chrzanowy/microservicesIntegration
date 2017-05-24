@@ -1,1 +1,5 @@
 geteat/
+*.class
+*/.idea
+*.iml
+*/build/*
